@@ -11,12 +11,17 @@ import { SignupFormComponent } from './signup-form/signup-form.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ConfirmEmailComponent } from './confirm-email/confirm-email.component';
 import { FirstSetupProfileComponent } from './first-setup-profile/first-setup-profile.component';
+import { FirstSetupDoneComponent } from './first-setup-done/first-setup-done.component';
+import { LoginComponent } from './login/login.component';
+import { LoginFormComponent } from './login-form/login-form.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'sign-up', component: SignUpComponent },
   { path: 'confirm-email', component: ConfirmEmailComponent },
   { path: 'first-setup-profile', component: FirstSetupProfileComponent },
+  { path: 'first-setup-done', component: FirstSetupDoneComponent },
+  { path: 'login', component: LoginComponent },
   { path: '',
     redirectTo: '/home',
     pathMatch: 'full'
@@ -33,7 +38,10 @@ const appRoutes: Routes = [
     SignupFormComponent,
     PageNotFoundComponent,
     ConfirmEmailComponent,
-    FirstSetupProfileComponent
+    FirstSetupProfileComponent,
+    FirstSetupDoneComponent,
+    LoginComponent,
+    LoginFormComponent
   ],
   imports: [
     RouterModule.forRoot(
