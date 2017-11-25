@@ -9,7 +9,7 @@ export class FirstSetupProfileComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
+
 
 }

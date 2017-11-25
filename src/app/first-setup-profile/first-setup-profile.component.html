@@ -1,14 +1,30 @@
 <div class="card mx-auto border-0" style="width: 26rem;">
   <div class="card-body text-center">
-    <h4 class="card-title Welcome-to-AGile-Too">Set up your profile</h4>
-    <p class="card-text Create-and-share-boa">Add info about yourself</p>
-    <div class="form-group text-left">
-      <label for="exampleInputEmail1" class="Email-address">Full name</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your full name here" required>
+      <form class="text-center">
+            <h4 class="card-title Welcome-to-AGile-Too">Set up your profile</h4>
+            <p class="card-text Create-and-share-boa">Add info about yourself</p>
+                          
+            <div class="form-group">
+                <img class="img-preview" src="./assets/profiles-icon-blue.png" title="Image preview">
+                <div class="input-group" style="padding-top: 2rem;">
+                    <input id="fakeUploadLogo" class="form-control fake-shadow" placeholder="Choose File" disabled="disabled">
+                    <div class="input-group-btn">
+                        <div class="fileUpload btn btn-danger fake-shadow">
+                            <span><i class="glyphicon glyphicon-upload"></i>Upload</span>
+                            <input id="logo-id" name="logo" type="file" class="attachment_upload">  
+                        </div>
+                    </div>
+                </div>
+                <small id="passwordHelpBlock" class="form-text text-muted text-left">* Upload your photo.</small>
+            </div>
+            
+            <div class="form-group text-left">
+            <label for="exampleInputEmail1" class="Email-address">Full name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your full name here" required>
+            </div>
+            <div style="padding-top: 5rem;">
+                <a routerLink="/sign-up" routerLinkActive="active" class="btn btn-primary Rectangle-3">Next step</a>
+            </div>
+        </form>
     </div>
-    <div style="padding-top: 5rem;">
-        <a routerLink="/sign-up" routerLinkActive="active" class="btn btn-primary Rectangle-3">Next step</a>
-    </div>
-  </div>
 </div>
-
