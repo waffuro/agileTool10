@@ -9,10 +9,14 @@ import { HomeComponent } from './home/home.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { SignupFormComponent } from './signup-form/signup-form.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ConfirmEmailComponent } from './confirm-email/confirm-email.component';
+import { FirstSetupProfileComponent } from './first-setup-profile/first-setup-profile.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'sign-up', component: SignUpComponent },
+  { path: 'confirm-email', component: ConfirmEmailComponent },
+  { path: 'first-setup-profile', component: FirstSetupProfileComponent },
   { path: '',
     redirectTo: '/home',
     pathMatch: 'full'
@@ -27,7 +31,9 @@ const appRoutes: Routes = [
     HomeComponent,
     SignUpComponent,
     SignupFormComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ConfirmEmailComponent,
+    FirstSetupProfileComponent
   ],
   imports: [
     RouterModule.forRoot(

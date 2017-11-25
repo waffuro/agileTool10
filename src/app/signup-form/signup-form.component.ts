@@ -9,7 +9,7 @@ export class SignupFormComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
+
 
 }

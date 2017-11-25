@@ -1,0 +1,25 @@
+.Welcome-to-AGile-Too {
+    font-family: Helvetica;
+    font-size: 36px;
+    line-height: 3;
+    color: #00379b;
+}
+.Create-and-share-boa {
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 0.89;
+    color: #97a4b1;
+}
+.Rectangle-3 {
+    width: 180px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #00379b;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+.Email-address {
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #00379b;
+}
