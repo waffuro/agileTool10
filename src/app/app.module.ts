@@ -14,6 +14,7 @@ import { FirstSetupProfileComponent } from './first-setup-profile/first-setup-pr
 import { FirstSetupDoneComponent } from './first-setup-done/first-setup-done.component';
 import { LoginComponent } from './login/login.component';
 import { LoginFormComponent } from './login-form/login-form.component';
+import { DashBoardComponent } from './dash-board/dash-board.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -22,6 +23,7 @@ const appRoutes: Routes = [
   { path: 'first-setup-profile', component: FirstSetupProfileComponent },
   { path: 'first-setup-done', component: FirstSetupDoneComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'dash-board', component: DashBoardComponent },
   { path: '',
     redirectTo: '/home',
     pathMatch: 'full'
@@ -41,7 +43,8 @@ const appRoutes: Routes = [
     FirstSetupProfileComponent,
     FirstSetupDoneComponent,
     LoginComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    DashBoardComponent
   ],
   imports: [
     RouterModule.forRoot(
